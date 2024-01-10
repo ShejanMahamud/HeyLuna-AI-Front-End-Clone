@@ -11,7 +11,27 @@
       content="AI powered virtual assistant with long term memory that can understand your needs, act like a friend, and help you with your daily tasks."
     />
     <!-- CSS Link -->
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          backgroundImage: {
+        'home-bg': "url('./images/bg-image.png')",
+        'elevate-bg': "url('./images/Image.png')",
+        'bg-alt': "url('./images/bg-mid.jpg')",
+        'gradient-primary': "linear-gradient(0deg,#8a00cc 0%,#cf6aff 100%)",
+        'newsletter-bg': "linear-gradient(90deg,rgba(30,28,50,.8) 0%,rgba(43,22,29,.7) 100%)"
+      },
+      fontFamily: {
+        'ProstoOne': ['Prosto One' ],
+        'Poppins': ['Poppins']
+
+      },
+        }
+      }
+    }
+    </script>
     <!-- Fonts Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,7 +53,7 @@
     <!-- Favicon Link -->
     <link
       rel="shortcut icon"
-      href="/images/logo-icon.svg"
+      href="./images/logo-icon.svg"
       type="image/x-icon"
     />
   </head>
@@ -43,21 +63,21 @@
     >
       <a href="/index.html">
         <div class="flex gap-3">
-          <img src="/images/logo-icon.svg" alt="logo-con.png" class="h-6" />
-          <img src="/images/logo-text.svg" alt="logo-text.png" class="h-6" />
+          <img src="./images/logo-icon.svg" alt="logo-con.png" class="h-6" />
+          <img src="./images/logo-text.svg" alt="logo-text.png" class="h-6" />
         </div>
       </a>
       <div>
         <ul
           class="flex gap-5 text-sm font-light font-Poppins lg:text-base lg:gap-8 lg:font-normal"
         >
-          <li><a href="/src/pricing.html">Pricing</a></li>
-          <li><a href="/src/signin.html">App</a></li>
-          <li><a href="/src/signin.html">Video</a></li>
-          <li><a href="/src/signin.html">Audio</a></li>
-          <li><a href="/src/signin.html">Chat</a></li>
+          <li><a href="./src/pricing.html">Pricing</a></li>
+          <li><a href="./src/signin.html">App</a></li>
+          <li><a href="./src/signin.html">Video</a></li>
+          <li><a href="./src/signin.html">Audio</a></li>
+          <li><a href="./src/signin.html">Chat</a></li>
           <li class="font-ProstoOne">
-            <a href="/src/signin.html">Sign in</a>
+            <a href="./src/signin.html">Sign in</a>
           </li>
         </ul>
       </div>
@@ -106,15 +126,15 @@
           <div class="flex items-center">
             <div class="flex">
               <img
-                src="/images/polash.jpeg"
+                src="./images/polash.jpeg"
                 alt="polash.jpg"
                 class="h-[35px] w-[35px] rounded-full ring-2 ring-white z-10"
               /><img
-                src="/images/loes.jpeg"
+                src="./images/loes.jpeg"
                 alt="loes.jpg"
                 class="h-[35px] w-[35px] rounded-full ring-2 ring-white ml-[-0.5rem] z-20"
               /><img
-                src="/images/faisal.jpeg"
+                src="./images/faisal.jpeg"
                 alt="faisal"
                 class="h-[35px] w-[35px] rounded-full ring-2 ring-white ml-[-0.5rem] z-30"
               />
@@ -132,7 +152,7 @@
         </div>
       </div>
       <div class="hidden lg:inline-block">
-        <img src="/images/luna-face.png" alt="luna-face.png" />
+        <img src="./images/luna-face.png" alt="luna-face.png" />
       </div>
     </section>
     <!-- Company Section -->
@@ -145,13 +165,13 @@
       <div
         class="grid grid-cols-3 grid-rows-2 items-center grayscale opacity-60 lg:grid-cols-5 lg:grid-rows-1 hover:opacity-80"
       >
-        <img src="/images/Company-Images/nuditae.png" alt="nuditae.png" /><img
-          src="/images/Company-Images/bitstrapped.png"
+        <img src="./images/Company-Images/nuditae.png" alt="nuditae.png" /><img
+          src="./images/Company-Images/bitstrapped.png"
           alt="bitstrapped.png"
-        /><img src="/images/Company-Images/eirene.png" alt="eirene.png" /><img
-          src="/images/Company-Images/medeasy.png"
+        /><img src="./images/Company-Images/eirene.png" alt="eirene.png" /><img
+          src="./images/Company-Images/medeasy.png"
           alt="medeasy.png"
-        /><img src="/images/Company-Images/goodapi.png" alt="goodapi.png" />
+        /><img src="./images/Company-Images/goodapi.png" alt="goodapi.png" />
       </div>
     </section>
     <!-- Intro Video Section -->
@@ -187,7 +207,7 @@
         See How It Works
       </h1>
       <div class="relative mx-auto">
-        <img src="/images/vector-stroke.svg" alt="vector-stroke.svg" />
+        <img src="./images/vector-stroke.svg" alt="vector-stroke.svg" />
         <div class="absolute top-5 lg:top-10 left-0 right-0">
           <iframe
             src="https://www.youtube.com/embed/w9eiSy2EWH8?si=EhJVihhPx5kZd1lf"
@@ -237,7 +257,7 @@
         <div
           class="flex flex-col bg-[rgba(55,4,83,0.14)] backdrop-blur-md rounded-3xl overflow-hidden"
         >
-          <img src="/images/natural-language.png" alt="natural-language.png" />
+          <img src="./images/natural-language.png" alt="natural-language.png" />
           <div class="px-5 py-5">
             <h1
               class="text-white font-ProstoOne mb-3 text-lg lg:text-base xl:text-xl"
@@ -256,7 +276,7 @@
         <div
           class="flex flex-col bg-[rgba(55,4,83,0.14)] backdrop-blur-md rounded-3xl overflow-hidden"
         >
-          <img src="/images/different.png" alt="different.png" />
+          <img src="./images/different.png" alt="different.png" />
           <div class="px-5 py-5">
             <h1
               class="text-white font-ProstoOne mb-3 text-lg lg:text-base xl:text-xl"
@@ -275,7 +295,7 @@
         <div
           class="flex flex-col bg-[rgba(55,4,83,0.14)] backdrop-blur-md rounded-3xl overflow-hidden"
         >
-          <img src="/images/intelligently-invoke.png" alt="intelligently.png" />
+          <img src="./images/intelligently-invoke.png" alt="intelligently.png" />
           <div class="px-5 py-5">
             <h1
               class="text-white font-ProstoOne mb-3 text-lg lg:text-base xl:text-xl"
@@ -294,7 +314,7 @@
         <div
           class="flex flex-col bg-[rgba(55,4,83,0.14)] backdrop-blur-md rounded-3xl overflow-hidden"
         >
-          <img src="/images/long-term.png" alt="long-term.png" />
+          <img src="./images/long-term.png" alt="long-term.png" />
           <div class="px-5 py-5">
             <h1
               class="text-white font-ProstoOne mb-3 text-lg lg:text-base xl:text-xl"
@@ -319,7 +339,7 @@
       >
         <div>
           <img
-            src="/images/security.png"
+            src="./images/security.png"
             alt="secuirity.png"
             class="lg:h-[400px] md:h-[300px] xl:h-[550px]"
           />
@@ -375,7 +395,7 @@
       >
         <div class="lg:order-2 md:order-2">
           <img
-            src="/images/Integration.png"
+            src="./images/Integration.png"
             alt="Intregation.png"
             class="lg:h-[400px] md:h-[300px] xl:h-[550px]"
           />
@@ -461,12 +481,12 @@
         <div class="flex flex-col gap-10 w-[70%]">
           <div class="relative">
             <img
-              src="/images/Testimonial-Images/faisal.jpeg"
+              src="./images/Testimonial-Images/faisal.jpeg"
               alt="faisal.jpg"
               class="rounded-full"
             />
             <img
-              src="/images/Testimonial-Images/Quote.png"
+              src="./images/Testimonial-Images/Quote.png"
               alt="Quote.png"
               class="absolute left-0 bottom-0 w-[30%]"
             />
@@ -556,12 +576,12 @@
         <div class="flex flex-col gap-10 w-[70%]">
           <div class="relative">
             <img
-              src="/images/Testimonial-Images/loes.jpeg"
+              src="./images/Testimonial-Images/loes.jpeg"
               alt="loes.jpg"
               class="rounded-full"
             />
             <img
-              src="/images/Testimonial-Images/Quote.png"
+              src="./images/Testimonial-Images/Quote.png"
               alt="Quote.png"
               class="absolute left-0 bottom-0 w-[30%]"
             />
@@ -650,12 +670,12 @@
         <div class="flex flex-col gap-10 w-[70%]">
           <div class="relative">
             <img
-              src="/images/Testimonial-Images/saiful.jpeg"
+              src="./images/Testimonial-Images/saiful.jpeg"
               alt="saiful.jpg"
               class="rounded-full"
             />
             <img
-              src="/images/Testimonial-Images/Quote.png"
+              src="./images/Testimonial-Images/Quote.png"
               alt="Quote.png"
               class="absolute left-0 bottom-0 w-[30%]"
             />
@@ -984,7 +1004,7 @@
           </div>
         </div>
         <video
-          src="/images/avatar.webm"
+          src="./images/avatar.webm"
           autoplay=""
           loop=""
           class="h-full w-full lg:h-[380px]"
@@ -997,8 +1017,8 @@
       >
         <section class="flex flex-col gap-5 w-[90%]">
           <div class="flex">
-            <img src="/images/logo-icon.svg" alt="logo-icon.png" class="h-6" />
-            <img src="/images/logo-text.svg" alt="logo-text.png" class="h-6" />
+            <img src="./images/logo-icon.svg" alt="logo-icon.png" class="h-6" />
+            <img src="./images/logo-text.svg" alt="logo-text.png" class="h-6" />
           </div>
           <p
             class="text-[#F4E9FF] font-Poppins text-base opacity-70 font-normal leading-6"
